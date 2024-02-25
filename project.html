@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<header class="header">
+    <ul>
+        <script type="text/javascript">
+            function showDate() {
+                var d = new Date();
+                var current_date = d.getDate();
+                var current_month = d.getMonth() + 1;
+                var current_year = d.getFullYear();
+                document.write(current_date + "-" + current_month + "-" + current_year);
+            }
+        </script></li>
+        <li style="color:#fff8cf;"><script type="text/javascript">showDate();</script></li>
+            <li><h2>Alfred Kong</h2></li>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="info.html">About Me ↓</a>
+                <ul class="dropdown">
+                    <li><a href="info.html#myself">Who am I?</a></li>
+                    <li><a href="info.html#university">My University</a></li>
+                    <li><a href="info.html#academic">Academic Career</a></li>
+                    <li><a href="info.html#job">Job Experiences</a></li>
+                </ul>
+            </li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+    </ul>
+</header>
+
+<body>
+    <div class="content">
+        <h1><span><u>Projects</u></span></h1>
+        <br><p>Check out my projects!</p>
+        <h3>Github: </h3>
+        <div class="side_by_side">
+            <picture>
+                <a href="https://github.com/AlfredKPK"><img src="GitHub_Invertocat_Logo.svg" alt="Github"></a>
+            </picture>
+            
+        </div>
+    </div>
+    Photo by <a href="https://unsplash.com/@sebastiansvenson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sebastian Svenson</a> on <a href="https://unsplash.com/photos/brown-cardboard-box-with-yellow-light-d2w-_1LJioQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+</body>
+
+</html>

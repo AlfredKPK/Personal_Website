@@ -1,0 +1,210 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('fonts/Poppins/Poppins-Regular.ttf'); 
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Poppins-Regular, sans-serif;    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style: none;
+    background: rgb(0, 0, 0);
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #fff8cf;
+    text-decoration: none;
+    align-self: start;
+    font-size: 20px;
+}
+
+ul li h2{
+    display: block;
+    padding: 20px 25px;
+    color: #fff8cf;
+    text-decoration: none;
+    text-align: left;
+    font-size: 20px;
+    margin-right: 40vh;
+}
+
+ul li ul.dropdown li{
+    display: block;
+}
+
+ul li ul.dropdown{
+    width: 100%;
+    background: #c4723b;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover{
+    background: rgb(114, 114, 114);
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.info body{
+    background-size:auto;
+}
+
+body{
+    color: #fff8cf;
+    background-image: url("background.jpg");
+    background-position: 45% 0;
+    line-height: 2;
+}
+
+button{
+    width:200px;
+    background: #c4723b;
+    height: 45px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+a{
+    color: #fff8cf;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+h1 span{
+    transition: 0.5s;
+}
+
+h1:hover span:nth-child(1){
+    margin-right: 10px;
+}
+
+h1:hover span{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff,
+                 0 0 40px #fff,
+                 0 0 80px #fff,
+                 0 0 120px #fff,
+                 0 0 160px #fff,
+}
+
+h4{
+    font-size: 60px;
+    text-transform: uppercase;
+    display: flex;
+}
+
+h4 span{
+    transition: 1.5s;
+}
+
+h4:hover span{
+    filter: blur(20px);
+    opacity: 0;
+    transform: scale(2);
+}
+
+.home{
+    position: relative;
+    box-sizing:border-box;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.content{
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+    padding: 50px 60px;  
+    border: 3px solid #fff8cf;
+    margin: 20px;
+    padding: 0, 20px;
+}
+
+.info .content{
+    height: 100%;
+}
+
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.info img{
+    float: right;
+    border: 3px solid #fff8cf;
+    border-radius: 10px;
+}
+
+.info p{
+}
+
+#myself, #university, #academic, #job{
+    height:100vh;
+}
+
+.text-box{
+    
+}
+
+.contenttable{
+    width: 960px;
+    margin: auto;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px black;
+}
+
+.contenttable thead tr{
+    background-color:#c4723b;
+    color:fff8cf;
+    text-align: left;
+}
+
+.contenttable th, .contenttable td{
+    padding: 12px 15px
+}
+
+.contenttable tbody tr{
+    border-bottom: 1px solid #fff8cf;
+}
+
+.contenttable tbody tr:nth-of-type(even){
+    background-color: rgba(196, 72, 59, 0.5);
+}
+
+.contenttable tbody tr:last-of-type{
+    border-bottom: 2px solid #fff8cf;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Personal Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<header class="header">
+    <ul>
+        <script type="text/javascript">
+            function showDate() {
+                var d = new Date();
+                var current_date = d.getDate();
+                var current_month = d.getMonth() + 1;
+                var current_year = d.getFullYear();
+                document.write(current_date + "-" + current_month + "-" + current_year);
+            }
+        </script>
+        </li>
+        <li style="color:#fff8cf;">
+            <script type="text/javascript">showDate();</script>
+        </li>
+        <li>
+            <h2>Alfred Kong</h2>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li>
+            <a href="info.html">About Me ↓</a>
+            <ul class="dropdown">
+                <li><a href="info.html#myself">Who am I?</a></li>
+                <li><a href="info.html#university">My University</a></li>
+                <li><a href="info.html#academic">Academic Career</a></li>
+                <li><a href="info.html#job">Job Experiences</a></li>
+            </ul>
+        </li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</header>
+
+<body>
+    <div class="info">
+        <div class="content">
+            <div id="myself">
+                <h1><span><u>Who am I?</u></span></h1>
+                <div class="wrapper">
+                    <img src='myself.png' style="width:300px;height:300px">
+                    <div class="text-box">
+                        <h3 style="font-size: 32px;"><b>Hi, I am Kong Pak Kwan, Alfred.<br></b></h3>
+                        <p> I'm 20 years old and I like computers!<br><br>
+                            Ever since I was small, I was always fascinated by how ccomputer works.
+                            The fact that an intellegnt machine that is only composed of 0s and 1s
+                            always makes me praise the work that humans have done to create such a wonderful world
+                            today!
+                            <br><br>
+                            I'm trying to specialize my career in computer security as security is one of if not the
+                            most
+                            important part of techologies.
+                            A breached computer is never a good machine and will do more harm than good to humanity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="university">
+                <h1><span><u>My university</u></span></h1>
+                <div class="wrapper">
+                    <img src='polyu.jpg' style="width:500px;height:300px">
+                    <div class="text-box">
+                        <p>I study at <a href="https://www.polyu.edu.hk/">The Hong Kong Polytechnic University
+                                (PolyU)</a>. This
+                            is my second semester at this university.<br><br>
+                            I'm currently studying <a
+                                href="https://www.polyu.edu.hk/eee/study/ug-programmes/eie-scheme/scheme_eie_46409-ins/">Bachelor
+                                of Science (Hons) Degree in Information Security</a> and it takes 2 years to finish the
+                            programme.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="academic">
+                <h1><span><u>My Academic Career</u></span></h1>
+                <table class="contenttable">
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Education</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2015-2021</td>
+                            <td>Secondary School</td>
+                            <td>Graduated</td>
+                        </tr>
+                        <tr>
+                            <td>2021-2023</td>
+                            <td>HKCC Associate in Information Technology(8C112-IT)</td>
+                            <td>Graduated</td>
+                        </tr>
+                        <tr>
+                            <td>2023-</td>
+                            <td>PolyU Bachelor of Science (Hons) Degree in Information Security(46409-INS)</td>
+                            <td>Studying (Graduation Expected in 2025)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="job">
+                <h1><span><u>Job Experiences</u></span></h1>
+                <table class="contenttable">
+                    <thead>
+                        <tr>
+                            <th>Year</th>
+                            <th>Job Experiences</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2021-</td>
+                            <td>Private Tutor</td>
+                            <td>Junior Secondary School English and Maths.</td>
+                        </tr>
+                        <tr>
+                            <td>2024</td>
+                            <td>Summer Internship (Soon)</td>
+                            <td>Required to finish the bachelor degree.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    Photo by <a
+        href="https://unsplash.com/@sebastiansvenson?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sebastian
+        Svenson</a> on <a
+        href="https://unsplash.com/photos/brown-cardboard-box-with-yellow-light-d2w-_1LJioQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+</body>
+
+</html>
