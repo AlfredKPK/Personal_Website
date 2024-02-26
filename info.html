@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <script defer src="script.js"><</script>
 </head>
 
 <header class="header">
@@ -44,7 +45,7 @@
 <body>
     <div class="info">
         <div class="content">
-            <div id="myself">
+            <section class="hidden" id="myself">
                 <h1><span><u>Who am I?</u></span></h1>
                 <div class="wrapper">
                     <img src='myself.png' style="width:300px;height:300px">
@@ -63,9 +64,18 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div id="university">
+
+            <section class="hidden" id="hobby">
+                <h1><span><u>My Hobbies</u></span></h1>
+                    <div class="text-box">
+                        <p>I like playing vivdeo games! <br><br>
+                        </p>
+                    </div>
+            </section>
+
+            <section class="hidden" id="university">
                 <h1><span><u>My university</u></span></h1>
                 <div class="wrapper">
                     <img src='polyu.jpg' style="width:500px;height:300px">
@@ -80,9 +90,9 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div id="academic">
+            <section class="hidden" id="academic">
                 <h1><span><u>My Academic Career</u></span></h1>
                 <table class="contenttable">
                     <thead>
@@ -110,9 +120,9 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            </section>
 
-            <div id="job">
+            <section class="hidden" id="job">
                 <h1><span><u>Job Experiences</u></span></h1>
                 <table class="contenttable">
                     <thead>
@@ -135,7 +145,7 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
+            </section>
         </div>
     </div>
     Photo by <a

@@ -3,6 +3,9 @@
     src: url('fonts/Poppins/Poppins-Regular.ttf'); 
   }
 
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+
+
 *{
     margin: 0;
     padding: 0;
@@ -166,15 +169,13 @@ h4:hover span{
     border-radius: 10px;
 }
 
-.info p{
-}
-
-#myself, #university, #academic, #job{
-    height:100vh;
+section{
+    min-height:100vh;
+    display: grid;
 }
 
 .text-box{
-    
+    text-align: left;
 }
 
 .contenttable{
@@ -207,4 +208,17 @@ h4:hover span{
 
 .contenttable tbody tr:last-of-type{
     border-bottom: 2px solid #fff8cf;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }
