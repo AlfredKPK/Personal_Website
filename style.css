@@ -174,10 +174,6 @@ section{
     display: grid;
 }
 
-.text-box{
-    text-align: left;
-}
-
 .contenttable{
     width: 960px;
     margin: auto;
